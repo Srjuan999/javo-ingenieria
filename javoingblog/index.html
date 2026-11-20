@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Blog | Javo Ingeniería S.A.S.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<link rel="icon" href="img/logo.png">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="#inicio" aria-label="Javo Ingeniería S.A.S., inicio"><img src="img/logo.png" alt="Javo Ingeniería S.A.S."></a>
+    <button class="toggle" id="theme" type="button">Modo oscuro</button>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="hero wrap">
+    <div>
+      <h1>Ingeniería explicada con <em>claridad</em></h1>
+      <p>Artículos de Javo Ingeniería S.A.S. sobre proyectos, obra y mantenimiento, escritos para que tomes mejores decisiones.</p>
+      <a class="go" href="#entradas">Leer el blog</a>
+    </div>
+    <figure class="plano" style="margin:0" aria-label="Dibujo de una cercha con medidas">
+      <svg viewBox="0 0 420 270" role="img" aria-hidden="true">
+        <path class="t" d="M40 230V250M380 230V250M40 244H380"/>
+        <text x="190" y="262">12,00 m</text>
+        <path class="d" pathLength="1" d="M40 230H380L210 70Z"/>
+        <path class="d" pathLength="1" d="M40 230L125 150L210 230L295 150L380 230"/>
+        <path class="d" pathLength="1" d="M125 150H295M210 70V230"/>
+        <path class="t" d="M395 230V70M390 70H400M390 230H400"/>
+        <text x="355" y="150" transform="rotate(-90 355 150)">3,50 m</text>
+      </svg>
+      <div class="cap"><span>Detalle de cercha</span><span>Esc. 1:50</span></div>
+    </figure>
+  </section>
+
+  <section class="wrap" id="entradas" aria-label="Entradas del blog">
+    <h2 class="sec">Últimas entradas</h2>
+    <div class="filters" role="group" aria-label="Filtrar por tema">
+      <button class="btn" type="button" data-f="todas" aria-pressed="true">Todas</button>
+      <button class="btn" type="button" data-f="Obra" aria-pressed="false">Obra</button>
+      <button class="btn" type="button" data-f="Mantenimiento" aria-pressed="false">Mantenimiento</button>
+      <button class="btn" type="button" data-f="Consultoría" aria-pressed="false">Consultoría</button>
+    </div>
+
+    <article data-c="Obra"><details>
+      <summary>
+        <div class="ico"><svg viewBox="0 0 64 64"><path d="M8 56V20H32V56M32 56V8H56V56M4 56H60"/><path class="y" d="M16 30H24M16 42H24M40 20H48M40 32H48M40 44H48"/></svg></div>
+        <div><p class="meta"><b>Obra</b>12 de noviembre de 2026 · 4 min</p>
+        <h3>Cinco revisiones que evitan sobrecostos en obra</h3>
+        <p>Un chequeo corto antes de cada etapa ahorra más que cualquier descuento en materiales.</p>
+        <span class="more">Leer</span></div>
+      </summary>
+      <div class="body">
+        <p>En obra, los sobrecostos casi nunca aparecen de golpe: se acumulan por pequeños descuidos que nadie revisó a tiempo. Antes de iniciar cada etapa conviene detenerse unos minutos y confirmar cinco puntos.</p>
+        <ol>
+          <li><strong>Planos y especificaciones vigentes.</strong> Verificar que todo el equipo trabaje con la última versión.</li>
+          <li><strong>Cantidades y pedidos de materiales.</strong> Comparar lo pedido con lo que realmente exige el diseño.</li>
+          <li><strong>Condiciones del terreno.</strong> Confirmar que excavaciones y cimentación correspondan a lo previsto en los estudios.</li>
+          <li><strong>Control de calidad.</strong> Registrar ensayos, fotos y pruebas de los materiales clave.</li>
+          <li><strong>Seguridad y cronograma.</strong> Revisar que los tiempos y las medidas de protección sean realistas para la etapa que sigue.</li>
+        </ol>
+        <p>Este chequeo toma poco tiempo y evita repetir trabajos, que es donde más dinero se pierde.</p>
+      </div>
+    </details></article>
+
+    <article data-c="Mantenimiento"><details>
+      <summary>
+        <div class="ico"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="10"/><path d="M32 6V16M32 48V58M6 32H16M48 32H58M13.6 13.6L20.7 20.7M43.3 43.3L50.4 50.4M13.6 50.4L20.7 43.3M43.3 20.7L50.4 13.6"/><circle class="y" cx="32" cy="32" r="3"/></svg></div>
+        <div><p class="meta"><b>Mantenimiento</b>5 de noviembre de 2026 · 3 min</p>
+        <h3>Mantenimiento preventivo: cuánto cuesta no hacerlo</h3>
+        <p>Comparamos el costo de una revisión programada con el de una falla inesperada.</p>
+        <span class="more">Leer</span></div>
+      </summary>
+      <div class="body">
+        <p>Cuando un equipo falla sin aviso, el costo no es solo la reparación: también se paga la parada de la operación, los repuestos urgentes y, a veces, el riesgo para las personas. El mantenimiento preventivo busca evitar justamente eso.</p>
+        <p>Consiste en revisar, limpiar, lubricar y ajustar los equipos de forma programada, antes de que den problemas. Una revisión planificada se paga con tiempo y presupuesto conocidos; una falla inesperada llega cuando menos conviene.</p>
+        <ul>
+          <li>Identifica primero los equipos críticos, los que detienen todo si fallan.</li>
+          <li>Define una frecuencia de inspección para cada uno.</li>
+          <li>Lleva una bitácora con lo revisado y lo encontrado.</li>
+        </ul>
+        <p>Con esa información se puede decidir qué reparar, qué reemplazar y cuándo.</p>
+      </div>
+    </details></article>
+
+    <article data-c="Consultoría"><details>
+      <summary>
+        <div class="ico"><svg viewBox="0 0 64 64"><path d="M14 6H40L52 18V58H14Z"/><path d="M40 6V18H52"/><path class="y" d="M22 30H44M22 38H44M22 46H34"/></svg></div>
+        <div><p class="meta"><b>Consultoría</b>28 de octubre de 2026 · 5 min</p>
+        <h3>Qué pedir en una cotización de ingeniería</h3>
+        <p>Alcance, entregables, plazos y exclusiones: lo que debe estar por escrito antes de firmar.</p>
+        <span class="more">Leer</span></div>
+      </summary>
+      <div class="body">
+        <p>Dos cotizaciones con precios distintos no siempre ofrecen lo mismo. Para compararlas con justicia, cada propuesta debe dejar por escrito lo que incluye y lo que no.</p>
+        <ul>
+          <li><strong>Alcance:</strong> qué trabajos se harán y cuáles quedan fuera.</li>
+          <li><strong>Entregables:</strong> planos, informes, memorias o actas que recibirás.</li>
+          <li><strong>Plazos:</strong> fechas de inicio, entregas parciales y cierre.</li>
+          <li><strong>Exclusiones y supuestos:</strong> lo que podría cambiar el valor si las condiciones son distintas.</li>
+          <li><strong>Forma de pago:</strong> porcentajes y momentos en que se cobra.</li>
+        </ul>
+        <p>Si algo no está claro, pregúntalo antes de firmar. Una buena cotización responde esas dudas sin que tengas que pedirlo.</p>
+      </div>
+    </details></article>
+
+    <div class="cta">
+      <div><h2>¿Tienes un proyecto en mente?</h2><p>Cuéntanos qué necesitas y te respondemos.</p></div>
+      <a href="mailto:javoingenieria@gmail.com">Escríbenos</a>
+    </div>
+  </section>
+</main>
+
+<footer id="contacto">
+  <div class="wrap">
+    <div><img class="logo" src="img/logo.png" alt="Javo Ingeniería S.A.S."><p>NIT 900202917-0</p></div>
+    <div><h3>Dirección</h3><p>Carrera 21 No. 15-130</p></div>
+    <div><h3>Teléfonos</h3><p><a href="tel:+573008158415">300 815 8415</a> (también WhatsApp)<br>731 8269</p></div>
+    <div><h3>Correo</h3><p><a href="mailto:javoingenieria@gmail.com">javoingenieria@gmail.com</a></p></div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
